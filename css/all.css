@@ -215,7 +215,7 @@ html {
 }
 .ft-fragment {
     opacity: 0;
-    transition: all .3s cubic-bezier(.77, .1, .22, 1);
+    transition: all .4s cubic-bezier(.77, .1, .22, 1);
     -ms-transform: translateZ(0);
     -webkit-transform: translateZ(0);
     transform: translateZ(0)
@@ -658,25 +658,18 @@ button {
 .bottom-text img {
     height: 80%
 }
-.page-1 {
-    background: url(../img/iali53.jpg) bottom right no-repeat #fff;
-    text-align: left
+.page {
+    text-align: left;
 }
-.page-1 p {
+.page p {
     font-size: 1em
 }
-.page-1 img {
-    margin: 1em auto 0 1em
-}
-.page-1 .text1 {
-    font-size: 3em;
-    color: #FA4A4A;
+.page .text {
+    text-align: left;
+    font-size: 2em;
+    color: white;
     line-height: 2em;
-    margin: .5em 0 0 .5em
-}
-.page-1 .text2 {
-    font-size: 1.2em;
-    margin: 1.5em 0 0 1.5em
+    margin: 2em 2em
 }
 .flowtime .page-1 a {
     color: #6e2626
@@ -704,9 +697,6 @@ button {
     height: 10%;
     padding-top: 5%;
     margin: 0
-}
-.page-2 img {
-    height: 80%
 }
 .page-3 {
     background-color: #c1b287
@@ -770,7 +760,7 @@ button {
     margin-top: 3em
 }
 .page-10 {
-    background: url(../img/iali22_bg.jpg)
+    background: url(../back/iali22_bg.jpg)
 }
 .page-12 {
     background-color: #aff1ff;
@@ -802,7 +792,7 @@ button {
     background-color: #fbf7d1
 }
 .page-15 {
-    background: url(../img/iali45_bg.jpg) #dcf2fa
+    background: url(../back/iali45_bg.jpg) #dcf2fa
 }
 .page-16 {
     background-color: #7db6df
@@ -811,10 +801,10 @@ button {
     background-color: #e5f0f2
 }
 .page-19 {
-    background-image: url(../img/iali75_bg.jpg)
+    background-image: url(../back/iali75_bg.jpg)
 }
-.page-19 h3 {
-    margin-bottom: 2em
+.page-19 h1 {
+  color: white;
 }
 .page-20 {
     background-color: #fcd0ca;
@@ -824,7 +814,7 @@ button {
     left: 4em
 }
 .page-21 {
-    background: url(../img/iali59_bg.jpg) #fbf2a3
+    background: url(../back/iali59_bg.jpg) #fbf2a3
 }
 .page-22 {
     background-color: #f5d484
@@ -849,7 +839,7 @@ button {
     text-align: center
 }
 .page-28 {
-    background: url(../img/iali40_bg.jpg) bottom repeat-x #b7e7f3;
+    background: url(../back/iali40_bg.jpg) bottom repeat-x #b7e7f3;
     padding: 0
 }
 .page-28 img {
@@ -880,7 +870,7 @@ button {
     color: #eef
 }
 .page-30 {
-    background: url(../img/iali76_bg.png) center bottom repeat-x #fff;
+    background: url(../back/iali76_bg.png) center bottom repeat-x #fff;
     padding: 0
 }
 .page-31 {
@@ -902,13 +892,13 @@ button {
     font-size: 2em
 }
 .page-34 {
-    background: url(../img/iali57.jpg) left bottom no-repeat #94c2e3
+    background: url(../back/iali57.jpg) left bottom no-repeat #94c2e3
 }
 .page-34 h3 {
     color: #fff
 }
 .page-35 {
-    background: url(../img/iali8_bg.png) left bottom repeat-x #fff;
+    background: url(../back/iali8_bg.png) left bottom repeat-x #fff;
     padding: 0
 }
 .page-35 img {
@@ -943,7 +933,7 @@ button {
     background-color: #fff8f2
 }
 .page-39 {
-    background: url(../img/iali2_bg.jpg) #e8ccc1
+    background: url(../back/iali2_bg.jpg) #e8ccc1
 }
 .page-40 {
     background-color: #cde7f4
@@ -1063,7 +1053,7 @@ button {
     z-index: 999
 }
 .page-51 {
-    background-image: url(../img/iali52.jpg);
+    background-image: url(../back/iali52.jpg);
     background-size: cover;
     background-color: #fff;
     text-align: left
@@ -1082,14 +1072,14 @@ button {
     background-color: #febebe
 }
 .page-54 {
-    background: url(../img/319280_bg.jpg) #d3d2d0
+    background: url(../back/319280_bg.jpg) #d3d2d0
 }
 .page-55,
 .write-tip {
     background-color: #fff
 }
 .page-54 .center-img {
-    background-image: url(../img/319280.jpg);
+    background-image: url(../back/319280.jpg);
     text-indent: -99999px
 }
 .page-54 h3 {
@@ -1232,8 +1222,8 @@ button {
 }
 .mPower {
     position: fixed;
-    bottom: 9rem;
-    right: 6.2rem;
+    top: 2rem;
+    right: 2rem;
     z-index: 999
 }
 #off,
@@ -1252,7 +1242,7 @@ button {
     opacity: 1
 }
 #on {
-    background: url(../img/music.png) left center no-repeat
+    background: url(../img/music.png)
 }
 #off {
     background: url(../img/mute.png) left center no-repeat;
