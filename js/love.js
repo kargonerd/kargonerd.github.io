@@ -1,4 +1,14 @@
+function toggleOverview(e) {
+  if (e.progress === 45 && e.fragmentIndex === 2) {
+    setTimeout(function () {
+        Flowtime.showOverview(true)
+    }, 2000)
+
+  }
+}
+
 Flowtime.showProgress(true);
+Flowtime.addEventListener("flowtimenavigation", toggleOverview, false)
 Flowtime.start();
 Flowtime.autoplay(true, 1000)
 $(function() {
