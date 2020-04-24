@@ -277,7 +277,7 @@ img {
 }
 @font-face {
     font-family: RuiHeiXiTi;
-    src: url(http://q99sxupaw.bkt.clouddn.com/fonts/RuiHeiXiTi.otf) format('truetype');
+    src: url(../fonts/RuiHeiXiTi.otf) format('truetype');
     font-weight: 700;
     font-style: normal
 }
