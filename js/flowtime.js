@@ -1579,7 +1579,7 @@ var Flowtime = (function ()
 			}
 			t += " | " + ht;
 		}
-		document.title = t;
+		// document.title = t;
 	}
 
 	/**
